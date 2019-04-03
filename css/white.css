@@ -15,19 +15,19 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 42px;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 28px;
   font-weight: normal;
   color: #222; }
 
 ::selection {
   color: #fff;
-  background: #98bdef;
+  background: #E8E821;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #98bdef;
+  background: #E8E821;
   text-shadow: none; }
 
 .reveal .slides section,
@@ -46,7 +46,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Ubuntu", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -55,10 +55,11 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 3.5em; }
 
 .reveal h2 {
-  font-size: 1.6em; }
+  font-size: 2em;
+  color:#E8E821;}
 
 .reveal h3 {
   font-size: 1.3em; }
@@ -209,20 +210,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #2a76dd;
+  color: #E8E821;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6ca0e8;
+  color: #E2E288;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a53a1; }
+  background: #E8E821; }
 
 /*********************************************
  * IMAGES
@@ -244,21 +245,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #2a76dd;
+  border-color: #E8E821;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #2a76dd; }
+  color: #E8E821; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #2a76dd; }
+  color: #E8E821; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
