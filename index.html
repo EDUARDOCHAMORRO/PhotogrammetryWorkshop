@@ -360,7 +360,7 @@
 								<h1>RECONSTRUCION</h1>
 								<p style="background-color: #E8E821; color: #ffff;">Definicion</p><p>Marco fotogramétrico de visión artificial para reconstrucción 3D y seguimiento de cámaras.</p>
 					</section>
-					<section>
+					<section><!--meshroom-->
 									<section>
 												<h2 style="background-color: #E8E821; color: #ffff;">Meshroom/AliceVision</h2>
 												<p>Meshroom es un software gratuito de fotogrametría de código abierto con una hermosa interfaz de usuario. Está construido sobre un marco subyacente llamado AliceVision, que es el resultado de la cooperación entre múltiples Universidades y laboratorios.</p>
@@ -371,7 +371,7 @@
 												<img height="400" data-src="img/meshroom.png" alt="Down arrow">
 												<p>La interacción básica es tan simple como es posible. Arrastre y suelte las imágenes en la ventana de Meshroom, presione START y espere a que termine el modelo.</p>
 									</section>
-									<section data-background-video="https://www.youtube.com/watch?v=v_O6tYKQEBA">
+									<section data-background-iframe="https://www.youtube.com/embed/v_O6tYKQEBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 										</section>
 									<section >
 										<h2>Dos pasos- Drag and Drop</h2>
@@ -408,7 +408,7 @@
 											</section>
 
 					</section>
-					<section>
+					<section><!--recap-->
 									<section>
 												<h2 style="background-color: #E8E821; color: #ffff;">Autodesk Recap Photo</h2>
 												<p>Autodesk recap es un software de reconstruction de fotogrametria que opera en la nube, todos los calculos los hacen los servidores de Autodesk.</p>
@@ -419,7 +419,7 @@
 												<img height="400" data-src="img/recap/0.jpg" alt="Down arrow">
 												<p>Tiene un interfaz minimalista para hacer todo el proceso al usuario lo mas transparente posible.Solo es necesario subir las fotos al servidor y en unas horas tendremos el modelo listo</p>
 									</section>
-									<section data-background-video="https://www.youtube.com/watch?v=jups9i9fKvQ">
+									<section data-background-iframe="https://www.youtube.com/embed/jups9i9fKvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 										</section>
 									<section >
 										<h2>Voilá! El modelo ya reconstruido listo para mejorar y exportar</h2>
@@ -444,16 +444,75 @@
 											</section>
 
 					</section>
+					<section><!--recap-->
+									<section>
+												<h2 style="background-color: #E8E821; color: #ffff;">Agisoft Photoscan</h2>
+												<p>Agisoft PhotoScan es un software de reconstruction de fotogrametria profesional, otorga una gran calidad final e integra multiples postprocesados.</p>
+												<a href = "https://www.agisoft.com/">Agisoft Download</a> <br>
+									</section>
+
+								  <section data-background-video="img/agi/2.mp4"><h2 style="text-align: left;">Agisoft Photoscan</h2><!--,video.webm--></section>
+								  <section >
+												<h2>INICIO</h2>
+												<img height="400" data-src="img/agi/1.jpg" alt="Down arrow">
+												<p>Procedemos a cargar las bases fotograficas "ADD CHUNCK"</p>
+									</section>
+									<section >
+										<h2>INICIO</h2>
+										<img height="400" data-src="img/agi/2.jpg" alt="Down arrow">
+										<p>Procedemos a adjuntar las fotografias realizadas "add photos"</p>
+									</section>
+											<section >
+												<h2>Primer procesado</h2>
+													<p>Procedemos a iniciar el alineado de las fotografias es un proceso relativamente rapido donde se situan las camaras en el espacio</p>
+													<img height="400" data-src="img/agi/3.jpg" alt="Down arrow">
+											</section>
+											<section >
+													<h2>Camaras alineadas</h2>
+														<p>Ya podemos observar una malla basica donde se han situado las fotografias y una nube de punto basica</p>
+													<img height="400" data-src="img/agi/4.jpg" alt="Down arrow">
+											</section>
+											<section >
+													<p>En este paso podemos eliminar las camaras que no se han ubicado correctamente o que nos molesten</p>
+													<img height="400" data-src="img/agi/5.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>Calculo de nube de puntos</h2>
+													<p>La nube de puntos es una representacion de puntos tridimensional en el que cada punto incluye tambien textura. Este paso es el que determina la calidad.</p>
+													<img height="400" data-src="img/agi/6.jpg" alt="Down arrow">
+											</section>
+											<section >
+													<p>Una vez terminado este paso podemos ya ver perfectamente nuestro modelo representado en puntos, muchos editores prefieren trabajar con este formato al ser mas flexible y ligero</p>
+													<img height="400" data-src="img/agi/7.jpg" alt="Down arrow">
+											</section>
+											<section >
+													<h2>Calculo de Mesh</h2>
+													<p>A partir de los puntos podemos crear superficies trianguladas para representar en superficies la realidad "MESH".</p>
+													<img height="400" data-src="img/agi/8.jpg" alt="Down arrow">
+											</section>
+												<section >
+													<p>Este tipo de representacion es lo que comunmente conocemos por 3D y podemos exportarlo a multiples programas.</p>
+													<img height="400" data-src="img/agi/11.jpg" alt="Down arrow">
+											</section>
+
+
+
+
+											<section data-background-iframe="https://sketchfab.com/models/52c59d0c00d3477db5f44f274356da57/embed?autostart=1"frameborder="0"  allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+											</section>
+
+					</section>
+
 					<section style="text-align: left;">
-								<h1 >DESCARGAS</h1>
-								<p>
+								<h1 >GENERATED DATA</h1>
+								<h3><p>
 									- <a href ="codes/TestFiles/valldaura.obj" >Obj-Sample</a> <br>
 									- <a href="codes/TestFiles/valldaura.mtl">MTL-Sample</a><br>
 									- <a href="codes/TestFiles/valldaura.png">Image-Sample</a><br>
 									- <a href="codes/TestFiles/valldaura01.jpg">Textures-Sample</a><br>
 									- <a href="codes/TestFiles/DisplacementMap_1.jpg">Displacement-Sample</a><br>
-									- <a href="codes/TestFiles/NormalMap_1.jpg.jpg">NormalMap-Sample</a><br>
-								</p>
+									- <a href="codes/TestFiles/NormalMap_1.jpg">NormalMap-Sample</a><br>
+								</p></h3>
 					</section>
 
 
@@ -494,14 +553,72 @@
 													<p>Analisis de situaciones en contextos de emergencia para planificacion de intervenciones</p>
 													<img height="400" data-src="img/00.png" alt="Down arrow">
 										</section>
+										<section>
+													<h2>Estudios</h2>
+													<p>Analisis de cultivos y vegetaciones</p>
+													<img height="400" data-src="img/ndre.jpg" alt="Down arrow">
+										</section>
 					</section>
 
 
+					<section>
+									<section>
+											<h2 style="background-color: #E8E821; color: #ffff;">D-E-M</h2>
+											<p>DIGITAL ELEVATION MAP ANALYSIS</p>
+									</section>
+									<section >
+										<h2>DEM</h2>
+										<p>DIGITAL ELEVATION MAP es una forma de representacion de nuestro modelo por altura en las cotas Z se cambian los colores de las texturas por colores de altura</p>
+										<img height="400" data-src="img/agi/9.jpg" alt="Down arrow">
+									</section>
+									<section data-background-image="img/DEM.jpg">
+									</section>
+					</section>
+
+
+				<section >
+									<section>
+											<h2 style="background-color: #E8E821; color: #ffff;">ORTOMOSAIC</h2>
+											<p>Representación fotográfica de una zona de la superficie terrestre,en 2d</p>
+									</section>
+									<section >
+										<h2>ORTOMOSAIC</h2>
+										<p>Al igual que con el DEM tambien podemos extraer una composicion fotografica en HD del modelo.(Comunmente conocido como estilo google maps).</p>
+										<img height="400" data-src="img/agi/10.jpg" alt="Down arrow">
+									</section>
+									<section data-background-image="img/Orto.jpg">
+									</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1 >Descargas</h1>
+				<h3><p>
+						-	<a href="Codes/GrasshopperCodes.rar">Base Fotografica Ceu</a><br>
+						-	<a href="Codes/UpsCeuTerrainPointCloudLIGHT.pts">Modelo Cloud Point</a><br>
+						-	<a href="Codes/UspCeuMesh.rar">Modelo Mesh</a><br>
+						- <a href ="Codes/Plugins-Photogrammetry.rar">PluginsGrasshopper fotogrametria</a> <br>
+						- <a href="Codes/GrasshopperCodes.rar">Scripts de Grasshopper</a><br>
+
+					</p></h3>
+				</section>
+
+				<section>
+					<h2>Instalacion de plugins</h2>
+					<p>Los plugins de Grasshopper que no vienen con un file .exe se instalan manualmente.</p>
+					<ul>
+						<li>Vamos a  Archivo- special folders-ComponentFolder</li>
+						<li> Abrir la carpeta especial “Components Folder”</li>
+						<li>Copiar los archivos del plugin en esta carpeta</li>
+						<li> Anular el bloqueo de cada archivo dandole click derecho -> Propiedades</li>
+						<li>Volver a abrir Rhino y Grasshopper</li>
+					</ul>
+				</section>
 
 
 
 
 
+				<!----
 				<section >
 					<h2>Clever Quotes</h2>
 					<p>
@@ -511,22 +628,16 @@
 						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
 						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
 					</blockquote>
+				</section>--->
+				<section data-background-video="img/ceu.mp4"><!--,video.webm-->
+				<h2 style="text-align: left;">Output-Data</h2></section>
+				<section data-background-iframe="https://sketchfab.com/models/e6271319d80443d4af3d24e7a39553d1/embed?autostart=1"frameborder="0"  allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
 				</section>
 
-				<section data-background-video="img/flight.mp4,video.webm">
+				<section data-background-video="img/flight.mp4"><!--,video.webm-->
 				<h2 style="text-align: left;">Output-Data</h2></section>
 
 				<section data-background-iframe="https://sketchfab.com/models/951466585a424860ae8d05fc85c47d14/embed?autostart=1"frameborder="0"  allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
 				</section>
 
 				<section data-background-iframe="http://eduardochamorro.github.io/beansreels/workshops.html" data-background-interactive >
