@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Aereal Photogrammetry</title>
+		<title>Aerial Photogrammetry</title>
 
 		<meta name="description" content="Aerial flights and software reconstructions and processing for architecture.">
 		<meta name="author" content="Eduardo Chamorro">
@@ -175,7 +175,7 @@
 							                </ul>
 												</section> <!--BASES FOTOGRAFIA AREA--><!--MATEMATHICAL SOLUTIONS-->
 											</section>
-					</section><!--Historia fotogrametria-->
+					</section><!--Historia fotogrametria-->	<!--Fotogrametrias-->
 
 
 
@@ -222,11 +222,9 @@
 											 </section> <!--BASES FOTOGRAFIA AREA-->
 					</section>	<!--fotografia aerea beneficios-->
 
-
-
 				  <section>	<!--PASOS A SEGUIR-->
 						 							<section>
-														<h4 style="background-color: #E8E821; color: #ffff;">COMO TOMAR LOS DATOS </h4>
+														<h2 >COMO TOMAR LOS DATOS </h2>
 														<p>Debemos realizar un vuelo linear o orbital alrededor del modelo a reconstruir</p>
 														<img height="500" data-src="img/around.jpg" alt="Down arrow">
 													</section>
@@ -251,6 +249,111 @@
 												</section>
 					</section>
 
+					<section><!--planeando el vuelo-->
+									<section>
+												<h2 style="background-color: #E8E821; color: #ffff;">TIPO DE TOMA DE DATOS</h2>
+												<p>Es necesario establecer una estrategia adaptada a cada modelo a reconstruir</p>
+												<a href = "https://www.youtube.com/watch?v=q3wXggCqY_8">Planear el vuelo</a> <br>
+									</section>
+									<section >
+												<h2>MULTIPOSICION</h2>
+												<img height="400" data-src="img/tipos/epipolar_geometry.jpg" alt="Down arrow">
+												<p>Es necesario que las imagenes tomadas tengan distintos angulos de toma y perspectiva entre ellas para asi poder reconstruir una superficie no bidimensional.</p>
+									</section>
+									<section >
+										<h2>REFERENCIADO</h2>
+										<img height="400" data-src="img/tipos/1.jpg" alt="Down arrow">
+										<p>Al superponer fotografias en distintas posiciones los softwares de reconstrucion puede cuadrar matrices de puntos de referencia para asi ubicar primero donde fueron tomadas las fotografias y luego comenzar la reconstruccion.</p>
+									</section>
+											<section >
+												<h2>SUPERPOSICION</h2>
+													<p>Es recomendable que las fotografia se solapen en la imagen tomada al menos un 20-30% siendo recomendable hasta un 60%.</p>
+													<img height="400" data-src="img/tipos/superpo.jpg" alt="Down arrow">
+											</section>
+											<section >
+
+													<img height="400" data-src="img/tipos/solape.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA "CUPULA"</h2>
+														<p>Utilizada cuando existe un elemento principal a reconstruir pero se sigue mantiendo interes en los alrededores.</p>
+													<img height="400" data-src="img/tipos/cupula.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA "CILINDRICA" </h2>
+													<p>Empleada en modelos de pequeña escala o en torres de gran altura.</p>
+													<img height="400" data-src="img/tipos/cilindrico.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA"ORBITAL"</h2>
+													<p>Utilizada cuando existe un elemento principal en la composicion y se pretende la mayor definicion de este y no su entorno.</p>
+													<img height="400" data-src="img/tipos/orbital.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA "BARRIDO" </h2>
+													<p>Tipologia utilizada con el doble barrido para obtener modelos de gran precision y detalle</p>
+													<img height="400" data-src="img/tipos/barrido.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA "EXTENSION"</h2>
+													<p>Utilizada principalmente en agricultura para control de cultivos, suele realizarse con drones tipo ala volante ya que otorgan mayor autonomia</p>
+													<img height="400" data-src="img/tipos/extension.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>TOMA "ZIGZAG"</h2>
+													<p>Este tipo de toma suele ser la mas utilizada en vuelos manuales y de pequeña extension ya que permite gran solape manteniendo trayectorias simples</p>
+													<img height="400" data-src="img/tipos/zizaghd.jpg" alt="Down arrow">
+											</section>
+
+					</section>
+
+					<section><!--mission planer-->
+									<section>
+												<h2 style="background-color: #E8E821; color: #ffff;">MISSION PLANER</h2>
+												<p>Programa de vuelo y programacion de codigo abierto</p>
+												<a href = "http://ardupilot.org/planner/">Ardupilot</a> <br>
+									</section>
+									<section >
+												<h2>MULTIPOURPOSE</h2>
+												<img height="400" data-src="img/mi/1.jpg" alt="Down arrow">
+												<p>Este software sirve tanto para programar drones, como ajustarlos, crear missiones y ver en tiempo real su ubicacion</p>
+									</section>
+									<section >
+										<p>En el apartado flight plan podemos establecer nuestra ruta de vuelo, coordenada y que va hacer en cada posicion.</p>
+										<img height="400" data-src="img/mi/2.jpg" alt="Down arrow">
+									</section>
+											<section >
+												<h2></h2>
+													<p>Dependiendo del lugar debemos elegir una base cartografica distinta,aqui podemos ver la comparacion de gooogle maps vs bing maps</p>
+													<img height="400" data-src="img/mi/3.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>HOME</h2>
+														<p>Establecer un punto base (home) que servirá de refencia y recuperacion.</p>
+
+													<img height="400" data-src="img/mi/4.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>Area de escaneado</h2>
+														<p>Dibujar un poligono de la que será nuestra aera a escanear.</p>
+													<img height="400" data-src="img/mi/5.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>AUTO WAYPOINT </h2>
+													<p>Boton derecho autowp y en este caso utilizaremos "survey".</p>
+													<img height="400" data-src="img/mi/6.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>Menu camara</h2>
+													<p>Ajustar la camara utilizada,overlap,altura y tipo de recorrido</p>
+													<img height="400" data-src="img/mi/7.jpg" alt="Down arrow">
+											</section>
+											<section >
+												<h2>WP´S EXPORT </h2>
+													<p>Comprobar los waypoints y guardar el archivo en el dron</p>
+													<img height="400" data-src="img/mi/8.jpg" alt="Down arrow">
+											</section>
+					</section>
 
 
 					<section Set data-background="#E8E821" >
@@ -332,7 +435,7 @@
 													<img height="400" data-src="img/recap/3.jpg" alt="Down arrow">
 											</section>
 											<section >
-													<p>Puede hacer clic derecho en cualquiera de los nodos completados y seleccionar Abrir carpeta. Abra la carpeta de texturas o de malla de filtros para encontrar el archivo de salida en un formato .obj de Wavefront que se usa comúnmente.</p>
+													<p>Con visualizaciones sin texturizar podemos corregir mejor los erroes del modelo y observar y modificar la densidad de la trama.</p>
 													<img height="400" data-src="img/recap/4.jpg" alt="Down arrow">
 											</section>
 											<section >
@@ -341,7 +444,17 @@
 											</section>
 
 					</section>
-
+					<section style="text-align: left;">
+								<h1 >DESCARGAS</h1>
+								<p>
+									- <a href ="codes/TestFiles/valldaura.obj" >Obj-Sample</a> <br>
+									- <a href="codes/TestFiles/valldaura.mtl">MTL-Sample</a><br>
+									- <a href="codes/TestFiles/valldaura.png">Image-Sample</a><br>
+									- <a href="codes/TestFiles/valldaura01.jpg">Textures-Sample</a><br>
+									- <a href="codes/TestFiles/DisplacementMap_1.jpg">Displacement-Sample</a><br>
+									- <a href="codes/TestFiles/NormalMap_1.jpg.jpg">NormalMap-Sample</a><br>
+								</p>
+					</section>
 
 
 					<section Set data-background="#E8E821" >
@@ -349,12 +462,39 @@
 								<p style="background-color: #E8E821; color: #ffff;">Definicion</p><p>Tratamiento de una serie de datos para extraer modelos,conclusiones o efectos no obtenidos en un primer lugar.</p>
 					</section>
 
-
 					<section>
-								<h2 style="background-color: #E8E821; color: #ffff;">Procesado de datos</h2>
-								<p>Postprocesado de los modelos generados,análisis y extracción de conclusiones.</p>
-					</section>
+										<section>
+													<h2 style="background-color: #E8E821; color: #ffff;">Procesado de datos</h2>
+													<p>Postprocesado de los modelos generados,análisis y extracción de conclusiones.</p>
+										</section>
+										<section>
+													<h2>DATABASE - TO ANALYSIS</h2>
+													<p>A partir del modelo tridimensional texturizado ( mesh o nube de puntos) podemos extraer multiples tipos de datos y mapas</p>
+													<img height="400" data-src="img/3sites.png" alt="Down arrow">
+										</section>
+										<section>
+													<h2>Datos geometricos</h2>
+													<p>Podemos hacer analysis tanto de areas y de volumen caracterizando tanto por su geometria como sus tipologia</p>
+													<img height="400" data-src="img/stockpile.jpg" alt="Down arrow">
 
+										</section>
+										<section>
+													<h2>MEDICIONES</h2>
+													<p>Mediciones y distancias sobre lugares con poca o ninguna información</p>
+													<img height="400" data-src="img/medir.jpg" alt="Down arrow">
+										</section>
+
+										<section>
+													<h2>Visualizaciones</h2>
+													<p>Creacion de fotomontajes o videos interactivos a partir del modelo reconstruido o como base para situar intervenciones</p>
+													<img height="400" data-src="img/r.gif" alt="Down arrow">
+										</section>
+										<section>
+													<h2>Datos en live</h2>
+													<p>Analisis de situaciones en contextos de emergencia para planificacion de intervenciones</p>
+													<img height="400" data-src="img/00.png" alt="Down arrow">
+										</section>
+					</section>
 
 
 
@@ -419,7 +559,7 @@
 				progress: true,
 				center: true,
 				hash: true,
-				transition: 'convex',
+				transition: 'slide', //None - Fade - Slide - Convex - Concave - Zoom
 				dependencies: [
 					{ src: 'lib/marked.js' },
 					{ src: 'lib/markdown.js' },
